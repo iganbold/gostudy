@@ -1,7 +1,16 @@
 package main
 
-import "fmt"
+import (
+        "log"
+        "os"
+        
+        "github.com/iganbold/gostudy/itcs4102/hw1/search"
+    )
+
+func init() {
+    log.SetOutput(os.Stdout)
+}
 
 func main() {
-    fmt.Println("hello hw 1");
+    search.Run("uncc")
 }
