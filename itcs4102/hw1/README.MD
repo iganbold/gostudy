@@ -1,12 +1,13 @@
-## Rss reader (Written in Go)
-### Description
-
+## Rss Reader
+####Purpose
 The app reads a json based rss url data from a given file then unmarshall it. After that, it sends the http GET request based on the urls to fetch the news then it saves the http response to custom struct type. Finally, it prints the web site name and the news title.
 
-* USED DATASTRUCTURES: slice, struct,
-* USED IO LIBS: os, http
-* USED ENCODERS: xml, json
-* USED COMMON CONTROL STRUCTURES: if, for range, error check, and etc
+#### Tools
+* Used Language: Go
+* Used Data Structure slice, struct,
+* Used IO Libs: os, net, http
+* Used Encoders: xml, json
+* Used Common Control Structures: if, for range, error check, and etc
 
 ### Screenshot
 
