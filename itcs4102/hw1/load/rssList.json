@@ -1,0 +1,14 @@
+[
+{
+	"site" : "quora",
+	"link" : "https://www.quora.com/rss"
+},
+{
+	"site" : "ycombinator",
+	"link" : "https://news.ycombinator.com/rss"
+},
+{
+	"site" : "9gag",
+	"link" : "http://9gag-rss.com/api/rss/get?code=9GAG&format=2"
+}
+]
